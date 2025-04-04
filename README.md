@@ -28,7 +28,8 @@ A sophisticated grey-based theme with subtle color accents. Ideal for those who 
 
 1. Download or Clone this repository
 2. Create a folder named `syntax-snacks-1.0.0` inside `C:\Users\<yourusername>\.vscode-oss\extensions` on Windows and `~/.vscode-oss/extensions` on Linux
-3. Install using command
+3. Copy the files from that downloaded/cloned repository to the newly created folder i.e. `syntax-snacks-1.0.0`
+4. Install using command
 
    ```sh
    codium --install-extension syntax-snacks
@@ -36,9 +37,9 @@ A sophisticated grey-based theme with subtle color accents. Ideal for those who 
 
    `note: use code instead of codium if your are using vscode`
 
-4. Reopen your VSCodium
-5. Go to File > Preferences > Color Theme
-6. Select one of the Syntax Snacks themes:
+5. Reopen your VSCodium
+6. Go to File > Preferences > Color Theme
+7. Select one of the Syntax Snacks themes:
    - Syntax Snacks - Indigo Dream
    - Syntax Snacks - Emerald Forest
    - Syntax Snacks - Grey Matter
