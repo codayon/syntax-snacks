@@ -1,0 +1,50 @@
+{
+  "name": "syntax-snacks",
+  "displayName": "Syntax Snacks",
+  "description": "A collection of delicious themes featuring indigo, green, and grey color palettes",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Syntax Snacks - Indigo Dream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/indigo-dream.json"
+      },
+      {
+        "label": "Syntax Snacks - Emerald Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/emerald-forest.json"
+      },
+      {
+        "label": "Syntax Snacks - Grey Matter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/grey-matter.json"
+      }
+    ]
+  },
+  "publisher": "codayon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codayon/syntax-snacks"
+  },
+  "icon": "images/logo.png",
+  "keywords": [
+    "theme",
+    "dark",
+    "indigo",
+    "green",
+    "grey",
+    "syntax",
+    "color-theme"
+  ],
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  }
+} 

@@ -1,0 +1,84 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Syntax Snacks - Emerald Forest",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1f1c",
+    "editor.foreground": "#c5d0c5",
+    "editor.lineHighlightBackground": "#232a25",
+    "editor.selectionBackground": "#2d3a2f",
+    "editorCursor.foreground": "#c5d0c5",
+    "editorWhitespace.foreground": "#2d3a2f",
+    "editorLineNumber.foreground": "#4a5a4d",
+    "editorLineNumber.activeForeground": "#c5d0c5",
+    "editorIndentGuide.background": "#2d3a2f",
+    "editorIndentGuide.activeBackground": "#4a5a4d",
+    "sideBar.background": "#151a17",
+    "sideBar.foreground": "#c5d0c5",
+    "sideBarSectionHeader.background": "#1a1f1c",
+    "statusBar.background": "#151a17",
+    "statusBar.foreground": "#c5d0c5",
+    "activityBar.background": "#151a17",
+    "activityBar.foreground": "#c5d0c5",
+    "titleBar.activeBackground": "#151a17",
+    "titleBar.activeForeground": "#c5d0c5"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#4a5a4d"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#8abeb7"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#b5bd68"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#de935f"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#81c2be"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#c5d0c5"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": ["entity.name.type", "storage.type"],
+      "settings": {
+        "foreground": "#81c2be"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#8abeb7"
+      }
+    }
+  ]
+} 
